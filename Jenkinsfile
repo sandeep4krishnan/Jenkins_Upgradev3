@@ -3,7 +3,7 @@ pipeline {
       stages {
             stage('Init') {
                   steps {
-                        echo 'Hi, this is Anshul from LevelUp360'
+                        echo 'Hi, this is Sandeep from Blizzard Entertainment'
                         echo 'We are Starting the Testing'
                   }
             }
@@ -22,10 +22,6 @@ pipeline {
                         echo "Deploying in Production Area"
                   }
             }
-            stage('Sandeep') {
-                  steps {
-                        echo "Deploying Sandeep"
-                  }
-            }
+            
       }
 }
