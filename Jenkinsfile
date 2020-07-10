@@ -22,6 +22,11 @@ pipeline {
                         echo "Deploying in Production Area"
                   }
             }
-            
+            stage('Sandeep') {
+                  steps {
+                        echo "Deploying Sandeep"
+                  }
+            }
+
       }
 }
