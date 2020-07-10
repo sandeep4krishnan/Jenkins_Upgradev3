@@ -24,7 +24,7 @@ pipeline {
             }
             stage('Sandeep') {
                   steps {
-                        echo "Deploying Sandeep"
+                        echo "Deployment by Sandeep successfull"
                   }
             }
 
